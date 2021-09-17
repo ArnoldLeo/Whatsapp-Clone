@@ -33,24 +33,38 @@
 .contacts{
     background-color: #ffffff;
     min-height: 600px;
-   }
+}
    
-   .contact-table-scroll{
+.contact-table-scroll{
     overflow-y: scroll;
     height: 600px;
-   }
+}
    
-   .message-area{
+.message-area{
     background-color:  #e4e1de;
     min-height: 600px;
-   }
+}
    
-   .message-table-scroll{
+.message-table-scroll{
     overflow-y: scroll;
     height: 550px;
-   }
+}
    
-   .message-box{
+.message-box{
     background-color: #F0F0F0;
     
-   }
+}
+@media only screen and (max-width:576px) {
+    .message_area {
+         display: none;
+     }
+    .message-area{
+        display: none;
+    }
+    .message-box{
+        display: none;
+    }
+    /* .chat-top .{
+        display: none;
+    } */
+}
