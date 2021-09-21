@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .back-container{
     position: relative;
 }
@@ -56,8 +61,10 @@
 }
    
 .message-box{
-    background-color: #F0F0F0;
-    
+    background-color: #F0F0F0;  
+}
+.table{
+    height:50vh;
 }
 @media only screen and (max-width:576px) {
     #c1{
@@ -69,6 +76,10 @@
     .btn{
         margin-left: 10px;
     }
+    .front-container,.front-container1{
+        height:200px;
+    }
+    
 }
 #rcorners3 {
   margin-left: 60px;
