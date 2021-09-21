@@ -15,11 +15,11 @@
 }
 .back-top{
     background-color:#3bc9b8;
-    height: 15vh;
+    height: 50px;
 }
 .back-main{
     background-color: rgb(243, 240, 240);
-    height: 85vh;
+    height:650px;
 }
 .chat-top{
     background-color: whitesmoke;
@@ -42,11 +42,16 @@
    
 .message-area{
     background-color:  #e4e1de;
-    min-height: 600px;
+    height: 600px;
 }
-   
+
+#c1
+{
+  background-image: url('asset/b.png');
+  background-size: 100% 100%;
+}
 .message-table-scroll{
-    overflow-y: scroll;
+    overflow-y:auto;
     height: 550px;
 }
    
@@ -55,16 +60,22 @@
     
 }
 @media only screen and (max-width:576px) {
-    .message_area {
-         display: none;
-     }
-    .message-area{
+    #c1{
         display: none;
     }
-    .message-box{
-        display: none;
+    #rcorners3 {
+        margin-left: 10px;
     }
-    /* .chat-top .{
-        display: none;
-    } */
+    .btn{
+        margin-left: 10px;
+    }
+}
+#rcorners3 {
+  margin-left: 60px;
+  border-radius: 100%;
+  background-image: url('asset/Arnold.jpg');
+  background-size: 100% 100%;
+  padding: 20px; 
+  width: 200px;
+  height: 200px;
 }
